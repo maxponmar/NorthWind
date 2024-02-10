@@ -8,9 +8,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks and Drivers", "4. Frameworks and Drivers", "{6D7F83B3-BFE2-4C7C-ADF2-6114E0A29934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Entities", "NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj", "{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E} = {FC2F110C-6C5D-4524-916D-B2F2D8865845}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
