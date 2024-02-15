@@ -5,4 +5,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\NorthWind.Sales.Backend.BusinessObjects\NorthWind.Sales.Backend.BusinessObjects.csproj" />
+    </ItemGroup>
+
 </Project>
