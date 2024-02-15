@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Repositories", "NorthWind.Sales.Backend.Repositories\NorthWind.Sales.Backend.Repositories.csproj", "{4B1ACF33-3F91-40F8-BB6A-E610929E2451}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", "{FDAB1A4F-1287-4935-80FE-7377195D5431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Presenters", "NorthWind.Sales.Backend.Presenters\NorthWind.Sales.Backend.Presenters.csproj", "{09B15C11-C7D8-48E4-807B-9F9A4226A244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,8 @@ Global
 		{44DF0BD7-974C-4581-BC30-F93D34299249} = {22F4607B-EDD8-4361-BD4A-5E8B822F6FD2}
 		{1954C625-5A09-401B-A3D0-DE7C30AC74F0} = {44DF0BD7-974C-4581-BC30-F93D34299249}
 		{4B1ACF33-3F91-40F8-BB6A-E610929E2451} = {1954C625-5A09-401B-A3D0-DE7C30AC74F0}
+		{FDAB1A4F-1287-4935-80FE-7377195D5431} = {22F4607B-EDD8-4361-BD4A-5E8B822F6FD2}
+		{09B15C11-C7D8-48E4-807B-9F9A4226A244} = {FDAB1A4F-1287-4935-80FE-7377195D5431}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -50,5 +56,9 @@ Global
 		{4B1ACF33-3F91-40F8-BB6A-E610929E2451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B1ACF33-3F91-40F8-BB6A-E610929E2451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B1ACF33-3F91-40F8-BB6A-E610929E2451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B15C11-C7D8-48E4-807B-9F9A4226A244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B15C11-C7D8-48E4-807B-9F9A4226A244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B15C11-C7D8-48E4-807B-9F9A4226A244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B15C11-C7D8-48E4-807B-9F9A4226A244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
