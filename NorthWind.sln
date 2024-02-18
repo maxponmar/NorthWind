@@ -34,6 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContexts", "DataContext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.DataContexts.EFCore", "NorthWind.Sales.Backend.DataContexts.EFCore\NorthWind.Sales.Backend.DataContexts.EFCore.csproj", "{CD917647-8E4F-4EFF-A017-4A97AE31A4D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{91284285-81D4-46E5-8202-F8071063B608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.IoC", "NorthWind.Sales.Backend.IoC\NorthWind.Sales.Backend.IoC.csproj", "{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,8 @@ Global
 		{0B8BC7AB-294B-41DF-917E-77D148C87DE3} = {6D7F83B3-BFE2-4C7C-ADF2-6114E0A29934}
 		{68889059-4686-467D-A5DD-3DBA71FB622E} = {0B8BC7AB-294B-41DF-917E-77D148C87DE3}
 		{CD917647-8E4F-4EFF-A017-4A97AE31A4D4} = {68889059-4686-467D-A5DD-3DBA71FB622E}
+		{91284285-81D4-46E5-8202-F8071063B608} = {6D7F83B3-BFE2-4C7C-ADF2-6114E0A29934}
+		{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07} = {91284285-81D4-46E5-8202-F8071063B608}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -83,5 +89,9 @@ Global
 		{CD917647-8E4F-4EFF-A017-4A97AE31A4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD917647-8E4F-4EFF-A017-4A97AE31A4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD917647-8E4F-4EFF-A017-4A97AE31A4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D4EFF1-C430-4C4F-BA3A-07D0D8473E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
