@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\NorthWind.RazorComponents\NorthWind.RazorComponents.csproj" />
       <ProjectReference Include="..\NorthWind.Sales.Frontend.BusinessObjects\NorthWind.Sales.Frontend.BusinessObjects.csproj" />
     </ItemGroup>
 
