@@ -44,6 +44,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.WebApi", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Frontend.BusinessObjects", "NorthWind.Sales.Frontend.BusinessObjects\NorthWind.Sales.Frontend.BusinessObjects.csproj", "{5F33B2AA-DA48-4336-B07C-FA0EDF0A0019}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApiGateways", "WebApiGateways", "{BB412633-37FD-4B92-9DB8-46794A8410CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Frontend.WebApiGateways", "NorthWind.Sales.Frontend.WebApiGateways\NorthWind.Sales.Frontend.WebApiGateways.csproj", "{CF6C5BBC-3726-4D27-9279-43EE6A985F82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,8 @@ Global
 		{1545265B-13E9-439E-AE78-ECAC2E1F0781} = {6D7F83B3-BFE2-4C7C-ADF2-6114E0A29934}
 		{E70E288F-651B-4DAE-B77D-422D76B20061} = {1545265B-13E9-439E-AE78-ECAC2E1F0781}
 		{5F33B2AA-DA48-4336-B07C-FA0EDF0A0019} = {D5A66729-42FB-4C4E-9722-A4FEEDC47E89}
+		{BB412633-37FD-4B92-9DB8-46794A8410CC} = {44DF0BD7-974C-4581-BC30-F93D34299249}
+		{CF6C5BBC-3726-4D27-9279-43EE6A985F82} = {BB412633-37FD-4B92-9DB8-46794A8410CC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -110,5 +116,9 @@ Global
 		{5F33B2AA-DA48-4336-B07C-FA0EDF0A0019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F33B2AA-DA48-4336-B07C-FA0EDF0A0019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F33B2AA-DA48-4336-B07C-FA0EDF0A0019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6C5BBC-3726-4D27-9279-43EE6A985F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6C5BBC-3726-4D27-9279-43EE6A985F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6C5BBC-3726-4D27-9279-43EE6A985F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6C5BBC-3726-4D27-9279-43EE6A985F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
