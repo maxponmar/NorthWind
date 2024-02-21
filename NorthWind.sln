@@ -56,6 +56,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Frontend.Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Frontend.IoC", "NorthWind.Sales.Frontend.IoC\NorthWind.Sales.Frontend.IoC.csproj", "{EA60520B-33FA-49F8-A89D-D405EF1130CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.BlazorClient", "NorthWind.Sales.BlazorClient\NorthWind.Sales.BlazorClient.csproj", "{942BB7CB-5CD9-472D-928C-3DB701EA6A2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,7 @@ Global
 		{46D9490F-D25F-41BA-8835-2428BF46E271} = {9E6F8068-86DF-4F7B-AC8E-1C10D76A0630}
 		{4B79B90E-3149-426F-AB70-D39DE00B6199} = {9E6F8068-86DF-4F7B-AC8E-1C10D76A0630}
 		{EA60520B-33FA-49F8-A89D-D405EF1130CA} = {91284285-81D4-46E5-8202-F8071063B608}
+		{942BB7CB-5CD9-472D-928C-3DB701EA6A2B} = {1545265B-13E9-439E-AE78-ECAC2E1F0781}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{51F1EAF9-FA52-42AE-85C5-4F18AA57205E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -144,5 +147,9 @@ Global
 		{EA60520B-33FA-49F8-A89D-D405EF1130CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA60520B-33FA-49F8-A89D-D405EF1130CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA60520B-33FA-49F8-A89D-D405EF1130CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942BB7CB-5CD9-472D-928C-3DB701EA6A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942BB7CB-5CD9-472D-928C-3DB701EA6A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942BB7CB-5CD9-472D-928C-3DB701EA6A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942BB7CB-5CD9-472D-928C-3DB701EA6A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
