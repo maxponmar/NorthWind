@@ -44,5 +44,29 @@ namespace NorthWind.Sales.Frontend.Views.Resources {
                 resourceCulture = value;
             }
         }
+        
+        internal static string AboutTitle {
+            get {
+                return ResourceManager.GetString("AboutTitle", resourceCulture);
+            }
+        }
+        
+        internal static string HomeMenuItemTitle {
+            get {
+                return ResourceManager.GetString("HomeMenuItemTitle", resourceCulture);
+            }
+        }
+        
+        internal static string NavBarBrandTitle {
+            get {
+                return ResourceManager.GetString("NavBarBrandTitle", resourceCulture);
+            }
+        }
+        
+        internal static string Ok {
+            get {
+                return ResourceManager.GetString("Ok", resourceCulture);
+            }
+        }
     }
 }

@@ -44,5 +44,83 @@ namespace NorthWind.Sales.Frontend.Views.Resources {
                 resourceCulture = value;
             }
         }
+        
+        internal static string AddProductButtontext {
+            get {
+                return ResourceManager.GetString("AddProductButtontext", resourceCulture);
+            }
+        }
+        
+        internal static string CreateOrderMenuItemTitle {
+            get {
+                return ResourceManager.GetString("CreateOrderMenuItemTitle", resourceCulture);
+            }
+        }
+        
+        internal static string CreateOrderPageTitle {
+            get {
+                return ResourceManager.GetString("CreateOrderPageTitle", resourceCulture);
+            }
+        }
+        
+        internal static string CreateOrderTemplate {
+            get {
+                return ResourceManager.GetString("CreateOrderTemplate", resourceCulture);
+            }
+        }
+        
+        internal static string CustomerIdLabel {
+            get {
+                return ResourceManager.GetString("CustomerIdLabel", resourceCulture);
+            }
+        }
+        
+        internal static string ProductIdLabel {
+            get {
+                return ResourceManager.GetString("ProductIdLabel", resourceCulture);
+            }
+        }
+        
+        internal static string QuantityLabel {
+            get {
+                return ResourceManager.GetString("QuantityLabel", resourceCulture);
+            }
+        }
+        
+        internal static string SendButtonText {
+            get {
+                return ResourceManager.GetString("SendButtonText", resourceCulture);
+            }
+        }
+        
+        internal static string ShipAddressLabel {
+            get {
+                return ResourceManager.GetString("ShipAddressLabel", resourceCulture);
+            }
+        }
+        
+        internal static string ShipCityLabel {
+            get {
+                return ResourceManager.GetString("ShipCityLabel", resourceCulture);
+            }
+        }
+        
+        internal static string ShipCountryLabel {
+            get {
+                return ResourceManager.GetString("ShipCountryLabel", resourceCulture);
+            }
+        }
+        
+        internal static string ShipPostalCodeLabel {
+            get {
+                return ResourceManager.GetString("ShipPostalCodeLabel", resourceCulture);
+            }
+        }
+        
+        internal static string UnitPriceLabel {
+            get {
+                return ResourceManager.GetString("UnitPriceLabel", resourceCulture);
+            }
+        }
     }
 }
